@@ -1,0 +1,940 @@
+
+  <!DOCTYPE html>
+  <html lang="zh-CN"  
+    
+      data-theme-mode="auto"
+    
+  >
+  <head>
+  
+  <meta charset="utf-8">
+  
+
+  
+
+  
+
+  <script>window.REIMU_CONFIG = {};window.REIMU_CONFIG.icon_font = '4552607_0khxww3tj3q9';window.REIMU_CONFIG.clipboard_tips = {"success":{"en":"Copy successfully (*^▽^*)","zh-CN":"复制成功 (*^▽^*)","zh-TW":"複製成功 (*^▽^*)","ja":"コピー成功 (*^▽^*)"},"fail":{"en":"Copy failed (ﾟ⊿ﾟ)ﾂ","zh-CN":"复制失败 (ﾟ⊿ﾟ)ﾂ","zh-TW":"複製失敗 (ﾟ⊿ﾟ)ﾂ","ja":"コピー失敗 (ﾟ⊿ﾟ)ﾂ"},"copyright":{"enable":false,"count":50,"license_type":"by-nc-sa"}};window.REIMU_CONFIG.clipboard_tips.copyright.content = '本博客所有文章除特别声明外，均采用 BY-NC-SA 许可协议。转载请注明出处！';window.REIMU_CONFIG.code_block = {"expand":true};window.REIMU_CONFIG.base = 'http://youlinaixuwife.com';</script>
+  
+  <title>
+    关于Unity的安装教程 |
+    
+    也许是人类的网站
+  </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic&display=swap"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mulish:400,400italic,700,700italic%7CNoto%20Serif%20SC:400,400italic,700,700italic&display=swap" media="print" onload="this.media&#x3D;&#39;all&#39;">
+  
+  
+    <link rel="preload" href="//at.alicdn.com/t/c/font_4552607_0khxww3tj3q9.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+  
+  
+    
+<link rel="stylesheet" href="/css/loader.css">
+
+  
+  
+    <meta name="description" content="Unity 安装完整指南 (Windows版)前言本教程将详细指导您在 Windows 系统上完成 Unity 编辑器的安装过程，包含 Unity Hub 安装、编辑器版本选择、许可证激活等关键步骤。  目录 系统要求 下载 Unity Hub 安装 Unity Hub 安装 Unity 编辑器 激活许可证 创建第一个项目 常见问题 学习资源   系统要求在安装前，请确保您的 Windows 计算">
+<meta property="og:type" content="article">
+<meta property="og:title" content="关于Unity的安装教程">
+<meta property="og:url" content="http://youlinaixuwife.com/2025/08/03/%E5%85%B3%E4%BA%8EUnity%E7%9A%84%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/index.html">
+<meta property="og:site_name" content="也许是人类的网站">
+<meta property="og:description" content="Unity 安装完整指南 (Windows版)前言本教程将详细指导您在 Windows 系统上完成 Unity 编辑器的安装过程，包含 Unity Hub 安装、编辑器版本选择、许可证激活等关键步骤。  目录 系统要求 下载 Unity Hub 安装 Unity Hub 安装 Unity 编辑器 激活许可证 创建第一个项目 常见问题 学习资源   系统要求在安装前，请确保您的 Windows 计算">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-08-02T16:36:35.000Z">
+<meta property="article:modified_time" content="2025-08-02T17:02:39.473Z">
+<meta property="article:author" content="刘姓男子">
+<meta property="article:tag" content="Unity">
+<meta name="twitter:card" content="summary">
+  
+  
+    <link rel="alternate" href="/atom.xml" title="也许是人类的网站" type="application/atom+xml">
+  
+  
+    <link rel="shortcut icon" href="/images/favicon.ico">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  <link rel="preload" as="style" onload="this.onload&#x3D;null;this.rel&#x3D;&#39;stylesheet&#39;" href="https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.css" integrity="sha384-IfxC36XL&#x2F;toUyJ939C73PcgMuRzAZuIzZxE38drsmO5p6jD7ei+Zx&#x2F;1oA&#x2F;0l8ysE" crossorigin="anonymous">
+  
+  
+  
+  
+    
+<script src="https://npm.webcache.cn/pace-js@1.2.4/pace.min.js" integrity="sha384-k6YtvFUEIuEFBdrLKJ3YAUbBki333tj1CSUisai5Cswsg9wcLNaPzsTHDswp4Az8" crossorigin="anonymous"></script>
+
+  
+  
+    
+<link rel="stylesheet" href="https://npm.webcache.cn/@reimujs/aos@0.1.0/dist/aos.css" integrity="sha384-4NN3fZ5AokFyHuoihl7A9qWaCt+HsAtOaUsXwJGRb4&#x2F;SMBtFr2vcNSHR5E8dg0Wk" crossorigin="anonymous">
+
+  
+  
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+  <body>
+    
+    
+  <div id='loader'>
+    <div class="loading-left-bg loading-bg"></div>
+    <div class="loading-right-bg loading-bg"></div>
+    <div class="spinner-box">
+      <div class="loading-taichi rotate">
+        
+          <svg width="150" height="150" viewBox="0 0 1024 1024" class="icon" version="1.1" xmlns="https://www.w3.org/2000/svg" shape-rendering="geometricPrecision">
+            <path d="M303.5 432A80 80 0 0 1 291.5 592A80 80 0 0 1 303.5 432z" fill="var(--red-1, #ff5252)" />
+            <path d="M512 65A447 447 0 0 1 512 959L512 929A417 417 0 0 0 512 95A417 417 0 0 0 512 929L512 959A447 447 0 0 1 512 65z 
+           M512 95A417 417 0 0 1 929 512A208.5 208.5 0 0 1 720.5 720.5L720.5 592A80 80 0 0 0 720.5 432A80 80 0 0 0 720.5 592L720.5 720.5A208.5 208.5 0 0 1 512 512A208.5 208.5 0 0 0 303.5 303.5A208.5 208.5 0 0 0 95 512A417 417 0 0 1 512 95z" fill="var(--red-1, #ff5252)" />
+          </svg>
+        
+      </div>
+      
+      
+        
+      
+      <div class="loading-word">少女祈祷中...</div>
+    </div>
+  </div>
+  </div>
+  <script>
+    var time = null;
+    var startLoading = () => {
+      time = Date.now();
+      document.getElementById('loader').classList.remove("loading");
+    }
+    var endLoading = () => {
+      if (!time) {
+        document.body.style.overflow = 'auto';
+        document.getElementById('loader').classList.add("loading");
+      } else {
+        if (Date.now() - time > 500) {
+          time = null;
+          document.body.style.overflow = 'auto';
+          document.getElementById('loader').classList.add("loading");
+        } else {
+          setTimeout(endLoading, 500 - (Date.now() - time));
+          time = null;
+        }
+      }
+    }
+    window.addEventListener('DOMContentLoaded', endLoading);
+    document.getElementById('loader').addEventListener('click', endLoading);
+  </script>
+
+<div id="copy-tooltip" style="pointer-events: none; opacity: 0; transition: all 0.2s ease; position: fixed;top: 50%;left: 50%;z-index: 999;transform: translate(-50%, -50%);color: white;background: rgba(0, 0, 0, 0.5);padding: 10px 15px;border-radius: 10px;">
+</div>
+<div id="heatmap-tooltip"></div>
+
+
+    <div id="container">
+      <div id="wrap">
+        <div id="header-nav">
+  <nav id="main-nav">
+    
+      
+        <span class="main-nav-link-wrap">
+          <div class="main-nav-icon icon rotate">
+             
+              &#xe62b;
+             
+          </div>
+          <a class="main-nav-link" href="/">首页</a>
+        </span>
+      
+        <span class="main-nav-link-wrap">
+          <div class="main-nav-icon icon rotate">
+             
+              &#xe62b;
+             
+          </div>
+          <a class="main-nav-link" href="/archives">归档</a>
+        </span>
+      
+        <span class="main-nav-link-wrap">
+          <div class="main-nav-icon icon rotate">
+             
+              &#xe62b;
+             
+          </div>
+          <a class="main-nav-link" href="/about">关于</a>
+        </span>
+      
+        <span class="main-nav-link-wrap">
+          <div class="main-nav-icon icon rotate">
+             
+              &#xe62b;
+             
+          </div>
+          <a class="main-nav-link" href="/friend">友链</a>
+        </span>
+      
+    
+    <a id="main-nav-toggle" class="nav-icon"></a>
+  </nav>
+  <nav id="sub-nav">
+    
+      <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS 订阅" target="_blank"></a>
+    
+    
+    
+  </nav>
+  
+</div>
+<header id="header">
+  
+    
+      
+        <picture>
+          
+        </picture>
+        
+          <img  fetchpriority="high" src="/images/banner.webp" alt="关于Unity的安装教程">
+        
+      
+    
+  
+  <div id="header-outer">
+    <div id="header-title">
+      
+        
+        
+          <a href="/" id="logo">
+            <h1 data-aos="slide-up">关于Unity的安装教程</h1>
+          </a>
+        
+      
+      
+        
+        <h2 id="subtitle-wrap" data-aos="slide-down">
+          
+        </h2>
+      
+    </div>
+  </div>
+</header>
+
+        <div id="content"  class="sidebar-right" >
+          <aside id="sidebar">
+  
+  
+  
+  <div class="sidebar-wrapper wrap-sticky">
+    <div class="sidebar-wrap" data-aos="fade-up">
+      
+        
+          <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+  <h3 class="toc-title">文章目录</h3>
+  <div class="sidebar-toc-wrapper toc-div-class" >
+      
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Unity-%E5%AE%89%E8%A3%85%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97-Windows%E7%89%88"><span class="toc-number">1.</span> <span class="toc-text">Unity 安装完整指南 (Windows版)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95"><span class="toc-number">1.2.</span> <span class="toc-text">目录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82"><span class="toc-number">1.3.</span> <span class="toc-text">系统要求</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD-Unity-Hub"><span class="toc-number">1.4.</span> <span class="toc-text">下载 Unity Hub</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-Unity-Hub"><span class="toc-number">1.5.</span> <span class="toc-text">安装 Unity Hub</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E6%AD%A5%E9%AA%A4"><span class="toc-number">1.5.1.</span> <span class="toc-text">安装步骤</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A6%96%E6%AC%A1%E5%90%AF%E5%8A%A8%E9%85%8D%E7%BD%AE"><span class="toc-number">1.5.2.</span> <span class="toc-text">首次启动配置</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-Unity-%E7%BC%96%E8%BE%91%E5%99%A8"><span class="toc-number">1.6.</span> <span class="toc-text">安装 Unity 编辑器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%BF%80%E6%B4%BB%E8%AE%B8%E5%8F%AF%E8%AF%81"><span class="toc-number">1.7.</span> <span class="toc-text">激活许可证</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE"><span class="toc-number">1.8.</span> <span class="toc-text">创建第一个项目</span></a></li></ol></li></ol>
+      
+  </div>
+</div>
+</div>
+          <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="刘姓男子" class="lazyload">
+  <div class="sidebar-author-name">刘姓男子</div>
+  <div class="sidebar-description">啥比二次元的拉🐔网站</div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>文章</div>
+    <div class="sidebar-state-number">2</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>分类</div>
+    <div class="sidebar-state-number">0</div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>标签</div>
+    <div class="sidebar-state-number">1</div>
+  </div>
+</div>
+<div class="sidebar-social">
+  
+</div>
+<div class="sidebar-menu">
+  
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/" aria-label="首页"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          
+            &#xe62b;
+          
+        </div>
+        <div class="sidebar-menu-link">首页</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="归档"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          
+            &#xe62b;
+          
+        </div>
+        <div class="sidebar-menu-link">归档</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/about" aria-label="关于"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          
+            &#xe62b;
+          
+        </div>
+        <div class="sidebar-menu-link">关于</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/friend" aria-label="友链"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          
+            &#xe62b;
+          
+        </div>
+        <div class="sidebar-menu-link">友链</div>
+      </div>
+    
+  
+</div>
+</div>
+        
+      
+      
+        
+          <div class="sidebar-btn-wrapper" style="position:static">
+            <div class="sidebar-toc-btn current"></div>
+            <div class="sidebar-common-btn"></div>
+          </div>
+        
+      
+    </div>
+  </div>
+
+  <div class="sidebar-widget">
+  
+  </div>
+  
+</aside>
+
+          <section id="main"><article id="post-关于Unity的安装教程" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-inner" data-aos="fade-up">
+    <div class="article-meta">
+      <div class="article-date">
+  <span class="article-date-link" data-aos="zoom-in">
+    <time datetime="2025-08-02T16:36:35.000Z" itemprop="datePublished">2025-08-03</time>
+    <time style="display: none;" id="post-update-time">2025-08-03</time>
+  </span>
+</div>
+
+      
+
+    </div>
+    <div class="hr-line"></div>
+    
+
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+      
+        <h1 id="Unity-安装完整指南-Windows版"><a href="#Unity-安装完整指南-Windows版" class="headerlink" title="Unity 安装完整指南 (Windows版)"></a>Unity 安装完整指南 (Windows版)</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本教程将详细指导您在 Windows 系统上完成 Unity 编辑器的安装过程，包含 Unity Hub 安装、编辑器版本选择、许可证激活等关键步骤。</p>
+<hr>
+<h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><ol>
+<li><a href="#%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82">系统要求</a></li>
+<li><a href="#%E4%B8%8B%E8%BD%BD-unity-hub">下载 Unity Hub</a></li>
+<li><a href="#%E5%AE%89%E8%A3%85-unity-hub">安装 Unity Hub</a></li>
+<li><a href="#%E5%AE%89%E8%A3%85-unity-%E7%BC%96%E8%BE%91%E5%99%A8">安装 Unity 编辑器</a></li>
+<li><a href="#%E6%BF%80%E6%B4%BB%E8%AE%B8%E5%8F%AF%E8%AF%81">激活许可证</a></li>
+<li><a href="#%E5%88%9B%E5%BB%BA%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE">创建第一个项目</a></li>
+<li><a href="#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98">常见问题</a></li>
+<li><a href="#%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%BA%90">学习资源</a></li>
+</ol>
+<hr>
+<h2 id="系统要求"><a href="#系统要求" class="headerlink" title="系统要求"></a>系统要求</h2><p>在安装前，请确保您的 Windows 计算机满足以下要求：</p>
+<table>
+<thead>
+<tr>
+<th>组件</th>
+<th>最低要求</th>
+<th>推荐配置</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>操作系统</strong></td>
+<td>Windows 10 (64位)</td>
+<td>Windows 11 (64位)</td>
+</tr>
+<tr>
+<td><strong>CPU</strong></td>
+<td>Intel Core i5-4代 或 AMD 同等</td>
+<td>Intel Core i7-10代 或 AMD Ryzen 7</td>
+</tr>
+<tr>
+<td><strong>内存</strong></td>
+<td>8GB RAM</td>
+<td>16GB RAM</td>
+</tr>
+<tr>
+<td><strong>显卡</strong></td>
+<td>DX10&#x2F;DX11&#x2F;DX12 兼容显卡<br>支持 Shader Model 5.0</td>
+<td>NVIDIA GTX 1660 &#x2F; AMD RX 580</td>
+</tr>
+<tr>
+<td><strong>存储空间</strong></td>
+<td>30GB 可用空间</td>
+<td>SSD 固态硬盘 (500GB+)</td>
+</tr>
+<tr>
+<td><strong>其他</strong></td>
+<td>DirectX 11 兼容显卡</td>
+<td>支持 Vulkan API</td>
+</tr>
+</tbody></table>
+<blockquote>
+<p>💡 重要提示：</p>
+<ul>
+<li>Unity 2022 LTS 及以上版本不再支持 32 位系统</li>
+<li>需要安装 Visual C++ Redistributable 2019</li>
+<li>建议关闭杀毒软件避免安装中断</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="下载-Unity-Hub"><a href="#下载-Unity-Hub" class="headerlink" title="下载 Unity Hub"></a>下载 Unity Hub</h2><p>Unity Hub 是管理 Unity 安装的核心工具：</p>
+<ol>
+<li>访问官方下载页面：<a target="_blank" rel="noopener" href="https://unity.com/download">https://unity.com/download</a></li>
+<li>点击 <strong>“Download Unity Hub”</strong> 按钮</li>
+<li>选择 Windows 版本下载：<ul>
+<li>文件名称：<code>UnityHubSetup.exe</code></li>
+<li>大小：约 100MB</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p>⚠️ 安全提示：务必从官方渠道下载，避免第三方修改版本</p>
+</blockquote>
+<hr>
+<h2 id="安装-Unity-Hub"><a href="#安装-Unity-Hub" class="headerlink" title="安装 Unity Hub"></a>安装 Unity Hub</h2><h3 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a>安装步骤</h3><ol>
+<li>双击下载的 <code>UnityHubSetup.exe</code></li>
+<li>接受许可协议</li>
+<li>选择安装位置（默认推荐）:C:\Program Files\Unity Hub\</li>
+<li>点击 “Install” 开始安装</li>
+<li>安装完成后启动 Unity Hub</li>
+</ol>
+<h3 id="首次启动配置"><a href="#首次启动配置" class="headerlink" title="首次启动配置"></a>首次启动配置</h3><ol>
+<li>创建 Unity ID 或登录现有账号</li>
+<li>选择界面语言（推荐英文）</li>
+<li>设置默认项目存储位置：D:\UnityProjects\ # 推荐非系统盘</li>
+<li>启用自动更新功能</li>
+</ol>
+<hr>
+<h2 id="安装-Unity-编辑器"><a href="#安装-Unity-编辑器" class="headerlink" title="安装 Unity 编辑器"></a>安装 Unity 编辑器</h2><p>通过 Unity Hub 安装编辑器：</p>
+<ol>
+<li>在 Unity Hub 左侧菜单选择 <strong>“Installs”</strong></li>
+<li>点击右上角 <strong>“Install Editor”</strong> 按钮</li>
+<li>选择长期支持版 (LTS)：</li>
+</ol>
+<ul>
+<li>推荐版本：<strong>Unity 2022.3 LTS</strong></li>
+<li>避免使用技术预览版 (Tech Stream)</li>
+</ul>
+<ol start="4">
+<li><p>添加所需模块（根据开发需求选择）：</p>
+<table>
+<thead>
+<tr>
+<th>模块</th>
+<th>必选</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Microsoft Visual Studio</strong></td>
+<td>✓</td>
+<td>代码编辑器（C#开发必备）</td>
+</tr>
+<tr>
+<td><strong>Android Build Support</strong></td>
+<td>✓</td>
+<td>安卓应用开发</td>
+</tr>
+<tr>
+<td><strong>Windows Build Support</strong></td>
+<td>✓</td>
+<td>PC 游戏开发</td>
+</tr>
+<tr>
+<td><strong>WebGL Build Support</strong></td>
+<td>✓</td>
+<td>网页游戏开发</td>
+</tr>
+<tr>
+<td><strong>Documentation</strong></td>
+<td>✓</td>
+<td>离线文档</td>
+</tr>
+<tr>
+<td><strong>Unity Test Framework</strong></td>
+<td>△</td>
+<td>单元测试工具</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>选择安装位置（至少 20GB 空间）：D:\Unity\Editor\2022.3.20f1\ # 示例路径</p>
+</li>
+<li><p>点击 <strong>“Install”</strong> 开始下载安装</p>
+</li>
+</ol>
+<blockquote>
+<p>⏱ 安装时间参考：</p>
+<ul>
+<li>基础编辑器：约 15-30 分钟</li>
+<li>包含所有模块：约 60-90 分钟</li>
+</ul>
+</blockquote>
+<hr>
+<h2 id="激活许可证"><a href="#激活许可证" class="headerlink" title="激活许可证"></a>激活许可证</h2><p>首次使用需激活免费许可证：</p>
+<ol>
+<li>在 Unity Hub 左侧菜单选择 <strong>“Licenses”</strong></li>
+<li>点击右上角 <strong>“Add License”</strong></li>
+<li>选择 <strong>“Unity Personal”</strong></li>
+<li>阅读并同意条款：</li>
+</ol>
+<ul>
+<li>年收入 &lt; $100,000 可使用免费版</li>
+<li>禁止使用于敏感行业（赌博等）</li>
+</ul>
+<ol start="5">
+<li>点击 <strong>“Done”</strong> 完成激活</li>
+</ol>
+<blockquote>
+<p>💼 专业版说明：年收入 &gt; $100,000 需购买 $399&#x2F;月的 Unity Pro</p>
+</blockquote>
+<hr>
+<h2 id="创建第一个项目"><a href="#创建第一个项目" class="headerlink" title="创建第一个项目"></a>创建第一个项目</h2><ol>
+<li><p>在 Unity Hub 中点击 <strong>“New project”</strong></p>
+</li>
+<li><p>选择模板：</p>
+<table>
+<thead>
+<tr>
+<th>模板</th>
+<th>用途</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>3D Core</strong></td>
+<td>标准3D项目（推荐新手）</td>
+</tr>
+<tr>
+<td><strong>2D</strong></td>
+<td>2D游戏开发</td>
+</tr>
+<tr>
+<td><strong>URP</strong></td>
+<td>通用渲染管线（平衡画质&#x2F;性能）</td>
+</tr>
+<tr>
+<td><strong>HDRP</strong></td>
+<td>高清渲染管线（影视级画质）</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>设置项目：</p>
+<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">项目名称:</span> <span class="string">MyFirstUnityProject</span></span><br><span class="line"><span class="string">位置:</span> <span class="string">D:\UnityProjects\</span>  <span class="comment"># 推荐非系统盘</span></span><br><span class="line"><span class="string">版本:</span> <span class="number">2022.3</span><span class="string">.20f1</span> <span class="string">LTS</span>   <span class="comment"># 选择已安装的版本</span></span><br><span class="line"><span class="number">4</span><span class="string">.</span> <span class="string">点击</span> <span class="string">&quot;Create project&quot;</span></span><br><span class="line"><span class="number">5</span><span class="string">.</span> <span class="string">等待</span> <span class="string">Unity</span> <span class="string">编辑器初始化（首次启动较慢)</span></span><br><span class="line"></span><br><span class="line"><span class="comment">### ❌ 问题：Unity Hub/编辑器启动崩溃</span></span><br><span class="line"></span><br><span class="line"><span class="string">**错误现象**：</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">启动时闪退</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">显示&quot;Unity</span> <span class="string">has</span> <span class="string">stopped</span> <span class="string">working&quot;错误窗口</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">提示显卡驱动相关错误</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">长时间卡在初始化界面无响应</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">启动后立即自动关闭</span></span><br><span class="line"></span><br><span class="line"><span class="string">**可能原因**：</span></span><br><span class="line"><span class="number">1</span><span class="string">.</span> <span class="string">显卡驱动不兼容</span></span><br><span class="line"><span class="number">2</span><span class="string">.</span> <span class="string">图形API配置冲突</span></span><br><span class="line"><span class="number">3</span><span class="string">.</span> <span class="string">配置文件损坏</span></span><br><span class="line"><span class="number">4</span><span class="string">.</span> <span class="string">系统组件缺失（如VC++运行库）</span></span><br><span class="line"><span class="number">5</span><span class="string">.</span> <span class="string">硬件加速冲突</span></span><br><span class="line"></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="comment">#### 解决方案1：更新显卡驱动</span></span><br><span class="line"><span class="string">```powershell</span></span><br><span class="line"><span class="comment"># NVIDIA显卡</span></span><br><span class="line"><span class="string">winget</span> <span class="string">install</span> <span class="string">-e</span> <span class="string">--id</span> <span class="string">NVIDIA.GeForceExperience</span></span><br><span class="line"><span class="comment"># 或手动下载：https://www.nvidia.com/Download/index.aspx</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># AMD显卡</span></span><br><span class="line"><span class="string">winget</span> <span class="string">install</span> <span class="string">-e</span> <span class="string">--id</span> <span class="string">AMD.Catalyst</span></span><br><span class="line"><span class="comment"># 或手动下载：https://www.amd.com/support</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># Intel集成显卡</span></span><br><span class="line"><span class="string">winget</span> <span class="string">install</span> <span class="string">-e</span> <span class="string">--id</span> <span class="string">Intel.IntelDriverAndSupportAssistant</span></span><br><span class="line"><span class="comment"># 或手动下载：https://www.intel.com/content/www/us/en/download-center/home.html</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#### 解决方案2：添加启动参数</span></span><br><span class="line"></span><br><span class="line"><span class="string">通过创建特殊快捷方式强制使用特定图形API：</span></span><br><span class="line"></span><br><span class="line"><span class="string">```powershell</span></span><br><span class="line"><span class="comment"># 创建Unity Hub安全模式快捷方式</span></span><br><span class="line"><span class="string">$hubPath</span> <span class="string">=</span> <span class="string">&quot;C:\Program Files\Unity Hub\Unity Hub.exe&quot;</span></span><br><span class="line"><span class="string">$hubShortcut</span> <span class="string">=</span> <span class="string">&quot;C:\Users\Public\Desktop\Unity Hub (Safe Mode).lnk&quot;</span></span><br><span class="line"><span class="string">$WshShell</span> <span class="string">=</span> <span class="string">New-Object</span> <span class="string">-ComObject</span> <span class="string">WScript.Shell</span></span><br><span class="line"><span class="string">$Shortcut</span> <span class="string">=</span> <span class="string">$WshShell.CreateShortcut($hubShortcut)</span></span><br><span class="line"><span class="string">$Shortcut.TargetPath</span> <span class="string">=</span> <span class="string">$hubPath</span></span><br><span class="line"><span class="string">$Shortcut.Arguments</span> <span class="string">=</span> <span class="string">&quot;--disable-gpu&quot;</span></span><br><span class="line"><span class="string">$Shortcut.Save()</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建Unity编辑器OpenGL模式快捷方式</span></span><br><span class="line"><span class="string">$editorPath</span> <span class="string">=</span> <span class="string">&quot;C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Unity.exe&quot;</span></span><br><span class="line"><span class="string">$editorShortcut</span> <span class="string">=</span> <span class="string">&quot;C:\Users\Public\Desktop\Unity Editor (OpenGL).lnk&quot;</span></span><br><span class="line"><span class="string">$Shortcut</span> <span class="string">=</span> <span class="string">$WshShell.CreateShortcut($editorShortcut)</span></span><br><span class="line"><span class="string">$Shortcut.TargetPath</span> <span class="string">=</span> <span class="string">$editorPath</span></span><br><span class="line"><span class="string">$Shortcut.Arguments</span> <span class="string">=</span> <span class="string">&quot;-force-opengl&quot;</span></span><br><span class="line"><span class="string">$Shortcut.Save()</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#### 解决方案3：安装必要运行库</span></span><br><span class="line"><span class="comment"># 安装最新VC++运行库</span></span><br><span class="line"><span class="string">winget</span> <span class="string">install</span> <span class="string">Microsoft.VCRedist.2015+.x64</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装.NET Framework 4.8</span></span><br><span class="line"><span class="string">winget</span> <span class="string">install</span> <span class="string">Microsoft.DotNet.DesktopRuntime.6</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 安装DirectX最终用户运行时</span></span><br><span class="line"><span class="string">choco</span> <span class="string">install</span> <span class="string">directx</span> <span class="string">-y</span></span><br><span class="line"></span><br><span class="line"><span class="comment">### ❌ 问题：许可证激活失败</span></span><br><span class="line"></span><br><span class="line"><span class="string">**错误现象**：</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">提示&quot;License</span> <span class="string">activation</span> <span class="string">failed&quot;错误</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">无法选择Unity</span> <span class="string">Personal免费许可证</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">显示&quot;License</span> <span class="string">is</span> <span class="string">not</span> <span class="string">valid&quot;</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">反复要求重新激活</span></span><br><span class="line"><span class="bullet">-</span> <span class="string">激活窗口卡在加载状态</span></span><br><span class="line"></span><br><span class="line"><span class="string">**可能原因**：</span></span><br><span class="line"><span class="number">1</span><span class="string">.</span> <span class="string">网络连接问题</span></span><br><span class="line"><span class="number">2</span><span class="string">.</span> <span class="string">防火墙/安全软件阻止</span></span><br><span class="line"><span class="number">3</span><span class="string">.</span> <span class="string">本地许可证文件损坏</span></span><br><span class="line"><span class="number">4</span><span class="string">.</span> <span class="string">系统时间/时区设置错误</span></span><br><span class="line"><span class="number">5</span><span class="string">.</span> <span class="string">Unity账号问题</span></span><br><span class="line"></span><br><span class="line"><span class="meta">---</span></span><br><span class="line"><span class="meta"></span></span><br><span class="line"><span class="comment">#### 解决方案1：命令行激活</span></span><br><span class="line"></span><br><span class="line"><span class="string">```powershell</span></span><br><span class="line"><span class="comment"># 步骤1：切换到Unity安装目录</span></span><br><span class="line"><span class="string">cd</span> <span class="string">&quot;C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 步骤2：释放当前许可证</span></span><br><span class="line"><span class="string">.\Unity.exe</span> <span class="string">-returnlicense</span> <span class="string">-batchmode</span> <span class="string">-quit</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 步骤3：手动激活（会打开浏览器）</span></span><br><span class="line"><span class="string">.\Unity.exe</span> <span class="string">-manualactivate</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 步骤4：强制关闭Unity进程</span></span><br><span class="line"><span class="string">Get-Process</span> <span class="string">Unity</span> <span class="string">|</span> <span class="string">Stop-Process</span> <span class="string">-Force</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 步骤5：验证激活状态</span></span><br><span class="line"><span class="string">.\Unity.exe</span> <span class="string">-batchmode</span> <span class="string">-nographics</span> <span class="string">-quit</span> <span class="string">-logFile</span> <span class="string">|</span> <span class="string">Select-String</span> <span class="string">&quot;License type:&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="string">解决方案2：离线激活</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#1. **访问手动激活页面**  </span></span><br><span class="line">   <span class="string">打开浏览器访问：</span>  </span><br><span class="line">   [<span class="string">https://license.unity3d.com/manual</span>]<span class="string">(https://license.unity3d.com/manual)</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#2. **登录Unity账号**  </span></span><br><span class="line">   <span class="type">![</span><span class="string">登录页面](https://i.imgur.com/LzKJ9cP.png)</span>  </span><br><span class="line">   <span class="string">使用与Unity</span> <span class="string">Hub相同的账号登录</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#3. **生成许可证文件**  </span></span><br><span class="line">   <span class="string">```mermaid</span></span><br><span class="line">   <span class="string">graph</span> <span class="string">LR</span></span><br><span class="line">     <span class="string">A[选择许可证类型]</span> <span class="string">--&gt;</span> <span class="string">B[Unity</span> <span class="string">Personal]</span></span><br><span class="line">     <span class="string">B</span> <span class="string">--&gt;</span> <span class="string">C[确认系统信息]</span></span><br><span class="line">     <span class="string">C</span> <span class="string">--&gt;</span> <span class="string">D[生成.ulf文件]</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#4. **下载许可证文件** </span></span><br><span class="line">   <span class="bullet">-</span> <span class="string">文件名格式：`Unity_v2022.x.ulf`</span></span><br><span class="line">   <span class="bullet">-</span> <span class="string">保存位置：默认在`下载`文件夹</span></span><br><span class="line">   <span class="bullet">-</span> <span class="string">文件内容示例：</span></span><br><span class="line">     <span class="string">```xml</span></span><br><span class="line">     <span class="string">&lt;LICENSE&gt;</span></span><br><span class="line">       <span class="string">&lt;UNITY&gt;2022.3.20f1&lt;/UNITY&gt;</span></span><br><span class="line">       <span class="string">&lt;SERIAL&gt;US-XXXX-XXXX-XXXX-XXXX-XXXX&lt;/SERIAL&gt;</span></span><br><span class="line">       <span class="string">&lt;EMAIL&gt;your@email.com&lt;/EMAIL&gt;</span></span><br><span class="line">       <span class="string">&lt;MACHINE&gt;XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX&lt;/MACHINE&gt;</span></span><br><span class="line">     <span class="string">&lt;/LICENSE&gt;</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>#5. <strong>放置许可证文件</strong></p>
+<pre><code class="powershell"> 创建Unity许可证目录（如果不存在）
+New-Item -Path &quot;C:\ProgramData\Unity&quot; -ItemType Directory -Force
+
+ 移动许可证文件
+Move-Item -Path &quot;$env:USERPROFILE\Downloads\Unity_v2022.x.ulf&quot; `
+          -Destination &quot;C:\ProgramData\Unity\Unity_lic.ulf&quot; `
+          -Force
+
+ 验证文件位置
+Test-Path &quot;C:\ProgramData\Unity\Unity_lic.ulf&quot;
+#6. **打开Unity验证激活状态**
+</code></pre>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in"><a class="article-tag-list-link" href="/tags/Unity/" rel="tag">Unity</a></li></ul>
+
+
+    </footer>
+  </div>
+  
+  <nav id="article-nav" data-aos="fade-up">
+    
+    
+    
+    <div class="article-nav-link-wrap article-nav-link-right">
+      
+        
+        
+          <img data-src="/images/banner.webp" data-sizes="auto" alt="shisa" class="lazyload">
+        
+      
+      <a href="/2025/08/02/shisa/"></a>
+      <div class="article-nav-caption">后一篇</div>
+      <h3 class="article-nav-title">
+        
+          shisa
+        
+      </h3>
+    </div>
+    
+  </nav>
+
+
+</article>
+
+
+
+
+
+
+
+
+
+
+</section>
+        </div>
+        <footer id="footer">
+  <div style="width: 100%; overflow: hidden">
+    <div class="footer-line"></div>
+  </div>
+  <div id="footer-info">
+    
+    <div>
+      <span class="icon-copyright"></span>
+      
+      
+      
+        2020-2025
+      
+      <span class="footer-info-sep rotate"></span>
+      刘姓男子
+    </div>
+    
+      <div>
+        基于&nbsp;<a href="https://hexo.io/" rel="noopener external nofollow noreferrer" target="_blank">Hexo</a>&nbsp;
+        Theme.<a href="https://github.com/D-Sketon/hexo-theme-reimu" rel="noopener external nofollow noreferrer" target="_blank">Reimu</a>
+      </div>
+    
+    
+      <div>
+        <span class="icon-brush"></span>
+        1.7k
+        &nbsp;|&nbsp;
+        <span class="icon-coffee"></span>
+        00:08
+      </div>
+    
+    
+    
+    
+      <div>
+        <span class="icon-eye"></span>
+        <span id="busuanzi_container_site_pv">总访问量&nbsp;<span id="busuanzi_value_site_pv"></span></span>
+        &nbsp;|&nbsp;
+        <span class="icon-user"></span>
+        <span id="busuanzi_container_site_uv">总访客量&nbsp;<span id="busuanzi_value_site_uv"></span></span>
+      </div>
+    
+  </div>
+</footer>
+
+        
+          <div class="sidebar-top">
+            <div class="sidebar-top-taichi rotate"></div>
+            <div class="arrow-up"></div>
+          </div>
+        
+        <div id="mask" class="hide"></div>
+      </div>
+      <nav id="mobile-nav">
+  <div class="sidebar-wrap">
+    
+      
+        <div class="sidebar-toc-sidebar"><div class="sidebar-toc">
+  <h3 class="toc-title">文章目录</h3>
+  <div class="sidebar-toc-wrapper toc-div-class" >
+      
+        <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Unity-%E5%AE%89%E8%A3%85%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97-Windows%E7%89%88"><span class="toc-number">1.</span> <span class="toc-text">Unity 安装完整指南 (Windows版)</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%AE%E5%BD%95"><span class="toc-number">1.2.</span> <span class="toc-text">目录</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82"><span class="toc-number">1.3.</span> <span class="toc-text">系统要求</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8B%E8%BD%BD-Unity-Hub"><span class="toc-number">1.4.</span> <span class="toc-text">下载 Unity Hub</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-Unity-Hub"><span class="toc-number">1.5.</span> <span class="toc-text">安装 Unity Hub</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E8%A3%85%E6%AD%A5%E9%AA%A4"><span class="toc-number">1.5.1.</span> <span class="toc-text">安装步骤</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%A6%96%E6%AC%A1%E5%90%AF%E5%8A%A8%E9%85%8D%E7%BD%AE"><span class="toc-number">1.5.2.</span> <span class="toc-text">首次启动配置</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E8%A3%85-Unity-%E7%BC%96%E8%BE%91%E5%99%A8"><span class="toc-number">1.6.</span> <span class="toc-text">安装 Unity 编辑器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%BF%80%E6%B4%BB%E8%AE%B8%E5%8F%AF%E8%AF%81"><span class="toc-number">1.7.</span> <span class="toc-text">激活许可证</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE"><span class="toc-number">1.8.</span> <span class="toc-text">创建第一个项目</span></a></li></ol></li></ol>
+      
+  </div>
+</div>
+</div>
+        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
+  <img data-src="/avatar/avatar.webp" data-sizes="auto" alt="刘姓男子" class="lazyload">
+  <div class="sidebar-author-name">刘姓男子</div>
+  <div class="sidebar-description">啥比二次元的拉🐔网站</div>
+</div>
+<div class="sidebar-state">
+  <div class="sidebar-state-article">
+    <div>文章</div>
+    <div class="sidebar-state-number">2</div>
+  </div>
+  <div class="sidebar-state-category">
+    <div>分类</div>
+    <div class="sidebar-state-number">0</div>
+  </div>
+  <div class="sidebar-state-tag">
+    <div>标签</div>
+    <div class="sidebar-state-number">1</div>
+  </div>
+</div>
+<div class="sidebar-social">
+  
+</div>
+<div class="sidebar-menu">
+  
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/" aria-label="首页"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          
+            &#xe62b;
+          
+        </div>
+        <div class="sidebar-menu-link">首页</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/archives" aria-label="归档"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          
+            &#xe62b;
+          
+        </div>
+        <div class="sidebar-menu-link">归档</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/about" aria-label="关于"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          
+            &#xe62b;
+          
+        </div>
+        <div class="sidebar-menu-link">关于</div>
+      </div>
+    
+      <div class="sidebar-menu-link-wrap">
+        <a class="sidebar-menu-link-dummy" href="/friend" aria-label="友链"></a>
+        <div class="sidebar-menu-icon icon rotate">
+          
+            &#xe62b;
+          
+        </div>
+        <div class="sidebar-menu-link">友链</div>
+      </div>
+    
+  
+</div>
+</div>
+      
+    
+  </div>
+  
+    
+      <div class="sidebar-btn-wrapper">
+        <div class="sidebar-toc-btn current"></div>
+        <div class="sidebar-common-btn"></div>
+      </div>
+    
+  
+</nav>
+
+    </div>
+    
+    
+    
+    
+<script src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js" integrity="sha384-3gT&#x2F;vsepWkfz&#x2F;ff7PpWNUeMzeWoH3cDhm&#x2F;A8jM7ouoAK0&#x2F;fP&#x2F;9bcHHR5kHq2nf+e" crossorigin="anonymous"></script>
+
+
+<script src="https://npm.webcache.cn/clipboard@2.0.11/dist/clipboard.min.js" integrity="sha384-J08i8An&#x2F;QeARD9ExYpvphB8BsyOj3Gh2TSh1aLINKO3L0cMSH2dN3E22zFoXEi0Q" crossorigin="anonymous"></script>
+
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+  
+<script src="/js/aos.js"></script>
+
+  <script>
+    var aosInit = () => {
+      AOS.init({
+        duration: 1000,
+        easing: "ease",
+        once: true,
+        offset: 50,
+      });
+    };
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', aosInit);
+    } else {
+      aosInit();
+    }
+  </script>
+
+
+
+<script src="/js/pjax_script.js" data-pjax></script>
+
+
+
+
+
+
+
+  
+<script src="https://npm.webcache.cn/mouse-firework@0.1.1/dist/index.umd.js" integrity="sha384-8LyaidD9GPxQQgLJO&#x2F;WRw&#x2F;O2h3BoNq&#x2F;ApI&#x2F;ecpvM6RsrCz2qP2ppBXUKihP4V&#x2F;2d" crossorigin="anonymous"></script>
+
+  <script>
+    window.firework && window.firework(JSON.parse('{"excludeElements":["a","button"],"particles":[{"shape":"circle","move":["emit"],"easing":"easeOutExpo","colors":["var(--red-1)","var(--red-2)","var(--red-3)","var(--red-4)"],"number":20,"duration":[1200,1800],"shapeOptions":{"radius":[16,32],"alpha":[0.3,0.5]}},{"shape":"circle","move":["diffuse"],"easing":"easeOutExpo","colors":["var(--red-0)"],"number":1,"duration":[1200,1800],"shapeOptions":{"radius":20,"alpha":[0.2,0.5],"lineWidth":6}}]}'))
+  </script>
+
+
+
+
+
+
+
+
+
+
+<div id="lazy-script">
+  <div>
+    
+      
+      
+      <script data-pjax>
+        window.REIMU_POST = {
+          author: "刘姓男子",
+          title: "关于Unity的安装教程",
+          url: "http://youlinaixuwife.com/2025/08/03/%E5%85%B3%E4%BA%8EUnity%E7%9A%84%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/",
+          excerpt: "",
+          description: "",
+          stripContent: "Unity 安装完整指南 (Windows版)前言本教程将详细指导您在 Windows 系统上完成 Unity 编辑器的安装过程，包含 Unity Hub 安装、编辑器版本选择、许可证激活等关键步骤。  目录 系统要求 下载 Unity Hub 安装 Unity Hub 安装 Unity 编辑器 激活许可证 创建第一个项目 常见问题 学习资源   系统要求在安装前，请确保您的 Windows 计算机满足以下要求：    组件 最低要求 推荐配置    操作系统 Windows 10 (64位) ",
+          date: "Sun Aug 03 2025 00:36:35 GMT+0800",
+          updated: "Sun Aug 03 2025 01:02:39 GMT+0800",
+          cover: "/images/banner.webp",
+        };
+      </script>
+       
+    
+    
+      
+        
+<script src="/js/insert_highlight.js" data-pjax></script>
+
+        
+      
+    
+    
+      <script type="module" data-pjax>
+        const PhotoSwipeLightbox = (await safeImport("https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe-lightbox.esm.min.js", "sha384-DiL6M/gG+wmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF/N6lrZi/")).default;
+        
+        const pswp = () => {
+          if (_$$('.article-entry a.article-gallery-item').length > 0) {
+            new PhotoSwipeLightbox({
+              gallery: '.article-entry',
+              children: 'a.article-gallery-item',
+              pswpModule: () => safeImport("https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8+oTJ7m3DfYEWX1fu1scuS4+s")
+            }).init();
+          }
+          if(_$$('.article-gallery a.article-gallery-item').length > 0) {
+            new PhotoSwipeLightbox({
+              gallery: '.article-gallery',
+              children: 'a.article-gallery-item',
+              pswpModule: () => safeImport("https://npm.webcache.cn/photoswipe@5.4.4/dist/photoswipe.esm.min.js", "sha384-WkkO3GCmgkC3VQWpaV8DqhKJqpzpF9JoByxDmnV8+oTJ7m3DfYEWX1fu1scuS4+s")
+            }).init();
+          }
+          window.lightboxStatus = 'done';
+          window.removeEventListener('lightbox:ready', pswp);
+        }
+        if(window.lightboxStatus === 'ready') {
+          pswp()
+        } else {
+          window.addEventListener('lightbox:ready', pswp);
+        }
+      </script>
+      
+        
+
+
+
+
+
+
+
+
+      
+    
+  </div>
+</div>
+
+
+  <script>
+    console.log(String.raw`%c 
+ ______     ______     __     __    __     __  __    
+/\  == \   /\  ___\   /\ \   /\ "-./  \   /\ \/\ \   
+\ \  __<   \ \  __\   \ \ \  \ \ \-./\ \  \ \ \_\ \  
+ \ \_\ \_\  \ \_____\  \ \_\  \ \_\ \ \_\  \ \_____\ 
+  \/_/ /_/   \/_____/   \/_/   \/_/  \/_/   \/_____/ 
+                                                  
+`,'color: #ff5252;')
+    console.log('%c Theme.Reimu v' + '1.9.0' + ' %c https://github.com/D-Sketon/hexo-theme-reimu ', 'color: white; background: #ff5252; padding:5px 0;', 'padding:4px;border:1px solid #ff5252;')
+  </script>
+  
+
+
+
+  
+<script src="https://npm.webcache.cn/busuanzi@2.3.0/bsz.pure.mini.js" integrity="sha384-0M75wtSkhjIInv4coYlaJU83+OypaRCIq2SukQVQX04eGTCBXJDuWAbJet56id+S" crossorigin="anonymous" async></script>
+
+
+
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then((registrations) => {
+      for (let registration of registrations) {
+        registration.unregister();
+      }
+    });
+  }
+</script>
+
+
+
+
+
+
+
+
+
+    
+  </body>
+  </html>
+

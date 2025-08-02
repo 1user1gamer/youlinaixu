@@ -1,7 +1,7 @@
 ---
 title: 关于Unity的安装教程
 date: 2025-08-03 00:36:35
-tags:Unity
+tags: [Unity]
 ---
 # Unity 安装完整指南 (Windows版)
 
@@ -18,7 +18,6 @@ tags:Unity
 5. [激活许可证](#激活许可证)
 6. [创建第一个项目](#创建第一个项目)
 7. [常见问题](#常见问题)
-8. [学习资源](#学习资源)
 
 ---
 
@@ -125,7 +124,7 @@ Unity Hub 是管理 Unity 安装的核心工具：
 | **HDRP** | 高清渲染管线（影视级画质） |
 
 3. 设置项目：
-```yaml
+
 项目名称: MyFirstUnityProject
 位置: D:\UnityProjects\  # 推荐非系统盘
 版本: 2022.3.20f1 LTS   # 选择已安装的版本
@@ -151,7 +150,7 @@ Unity Hub 是管理 Unity 安装的核心工具：
 ---
 
 #### 解决方案1：更新显卡驱动
-```powershell
+
 # NVIDIA显卡
 winget install -e --id NVIDIA.GeForceExperience
 # 或手动下载：https://www.nvidia.com/Download/index.aspx
@@ -168,7 +167,7 @@ winget install -e --id Intel.IntelDriverAndSupportAssistant
 
 通过创建特殊快捷方式强制使用特定图形API：
 
-```powershell
+
 # 创建Unity Hub安全模式快捷方式
 $hubPath = "C:\Program Files\Unity Hub\Unity Hub.exe"
 $hubShortcut = "C:\Users\Public\Desktop\Unity Hub (Safe Mode).lnk"
@@ -216,7 +215,7 @@ choco install directx -y
 
 #### 解决方案1：命令行激活
 
-```powershell
+
 # 步骤1：切换到Unity安装目录
 cd "C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor"
 
@@ -243,7 +242,7 @@ Get-Process Unity | Stop-Process -Force
    使用与Unity Hub相同的账号登录
 
 #3. **生成许可证文件**  
-   ```mermaid
+   
    graph LR
      A[选择许可证类型] --> B[Unity Personal]
      B --> C[确认系统信息]
@@ -263,7 +262,7 @@ Get-Process Unity | Stop-Process -Force
      ```
 	 
 #5. **放置许可证文件**
-```powershell
+
  创建Unity许可证目录（如果不存在）
 New-Item -Path "C:\ProgramData\Unity" -ItemType Directory -Force
 
